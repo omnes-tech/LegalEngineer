@@ -24,9 +24,9 @@ From the [Omnes-tech](https://twitter.com/AzukiOfficial) team and [Alexandre Sen
 O curso foi feito por profissionais técnicos e especializados no tema blockchain e smart contracts. 
 Para conseguir ter acesso ou comprar deve acompanhar os criadores em suas respectivas redes sociais e no site da omnestech:
 
--   [Afonso Dalvi](https://twitter.com/AzukiOfficial)
--   [Alexandre Senra](https://twitter.com/AzukiOfficial)
--   [Gustavo Deps](https://twitter.com/AzukiOfficial)
+-   [Afonso Dalvi](https://www.linkedin.com/in/afonso-dalvi-711635112/)
+-   [Alexandre Senra](https://www.linkedin.com/in/alexandresenra/)
+-   [Gustavo Deps](https://www.linkedin.com/in/gustavo-deps/)
 
 #### Approach
 
