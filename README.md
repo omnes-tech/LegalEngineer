@@ -13,9 +13,8 @@ Objetivos do Curso:
 
 -   Analisar casos práticos de uso da tecnologia Blockchain.
 
-PBT aims to mitigate these issues in a decentralized way through a new token standard (an extension of EIP-721).
 
-From the [Omnes-tech](https://twitter.com/AzukiOfficial) team and [Alexandre Senra](https://www.linkedin.com/in/alexandresenra/).
+From the [Omnes-tech](https://www.omnestech.org/) team and [Alexandre Senra](https://www.linkedin.com/in/alexandresenra/).
 **Omnes Blockchain is not responsible for any results resulting from the use of the Smart Contracts produced here**, DYOR. 
 
 
