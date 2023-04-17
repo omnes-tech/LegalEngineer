@@ -77,7 +77,12 @@ contract LegalEngineerCourse is ERC721A, Pausable, Ownable {
 
         string memory baseuRI = _baseURI();
         string memory json = ".json";
+
+        if(tokenId > 150)
+        return bytes(baseuRI).length != 0 ? string(abi.encodePacked(baseuRI, _toString(3), json)) : '';
+        else
         return bytes(baseuRI).length != 0 ? string(abi.encodePacked(baseuRI, _toString(tokenId), json)) : '';
+        
     }
 
     function pause() public onlyOwner {

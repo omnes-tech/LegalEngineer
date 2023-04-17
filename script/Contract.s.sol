@@ -13,7 +13,7 @@ contract ContractScript is Script {
 
         vm.startBroadcast(deployerPrivateKey);
 
-        return new LegalEngineerCourse("https://bafybeid7rsqvtd454ra4tkfa3y2vobmz75zexgxe6zndsj5jk23tbjdnsq.ipfs.nftstorage.link/");
+        return address(new LegalEngineerCourse("https://bafybeic6pb52otefewwrowbjzmg2n7tsivjkydwx46pimvhkb32a4yqpnq.ipfs.nftstorage.link/"));
 
         vm.stopBroadcast();
     }
