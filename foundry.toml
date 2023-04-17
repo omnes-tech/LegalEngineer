@@ -10,12 +10,13 @@ gas_reports = ["*"]
 
 [etherscan]
 polygon-mumbai = { key = "${POLYGON_API_KEY}", url = "https://mumbai.polygonscan.com/api" }
+polygon = { key = "${POLYGON_API_KEY}", url = "https:/api.polygonscan.com/api" }
 ethereum-goerli = { key = "${ETHERSCAN_API_KEY}", url = "https://goerli.etherscan.io/api" }
 
 [rpc_endpoints]
 mainnet = "${ALCHEMY_MAINNET_URL}"
 goerli = "${ALCHEMY_GOERLI_URL}"
-polygon = "${GOERLI_POLYGON_URL}"
+polygon = "${ALCHEMY_POLYGON_URL}"
 mumbai = "${ALCHEMY_MUMBAI_URL}"
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
