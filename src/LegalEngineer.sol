@@ -20,10 +20,10 @@ contract LegalEngineerCourse is ERC721A, Pausable, Ownable {
     error NonExistentTokenURI();
     error WithdrawTransfer();
 
-    string private material;
     string baseURI;
     mapping(address => bool) approveAdr;
     mapping(address => mapping(uint256 => string)) private materialId;
+    string private material;
 
     //collections
     IERC721 public collectionGotasSUP = IERC721(0xcA4a7363A939f5686Bd7268c3b895D720d1929aA);//https://opensea.io/collection/supofficialdrops
@@ -58,7 +58,6 @@ contract LegalEngineerCourse is ERC721A, Pausable, Ownable {
 
     function setMaterialLink(string memory Material, uint256 id, address sorteado)external addrApprove{
         materialId[sorteado][id] = Material;
-        material = Material;
     }
 
     function setMaterialGlobal(string memory Material)external addrApprove{
